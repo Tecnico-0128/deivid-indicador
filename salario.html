@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Funcionarios</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Varejao do Deivid DS7</h1>
+    </header>
+    <div class="menu">
+        <a href="cadastro.html">Cadastrar Funcionarios</a> |
+        <a href="salario.html">Editar Salario</a> |
+        <a href="demissao.html">Demitir Funcionario</a> |
+        <a href="funcionarios.html">Funcionarios</a>
+    </div>
+    <div class="principal">
+        <div>
+            <h2>Salario Funcionarios</h2>
+            <form>
+                <label>CPF do Funcionario:</label><br>
+                <input id="cpff" type="text"><br><br>
+                <label>Salario:</label><br>
+                <input id="salariof" type="number"><br><br>
+                <button onclick="buscarf()" id="cadf" type="button">Buscar Funcionario</button><br>
+                <button onclick="editar()" id="cadf" type="button">Mudar Salario</button><br>
+            </form>
+        </div>
+    </div>
+    <div class="principal" id="lc">
+    </div>
+
+</body>
+</html>
